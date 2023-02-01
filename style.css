@@ -1,0 +1,20 @@
+
+
+label, p{
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+  background: #ba9fd5;
+  padding: 15px;
+}
+h1{
+  text-align: center;
+}
+body{
+  height: 500px;
+  width: 500px;
+  
+  display: inline-block;
+  
+  background-color: #d68f8f;
+}

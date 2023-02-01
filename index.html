@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Calculadora Gorjeta</h1>
+
+  <label>Valor total:</label><input type="text" size="6" id="valorC"><br><br>
+  <label>% Gorjeta</label><input type="range" min="0" max="100" value="10" oninput="atualizar()" id="gorjeta"> <input type="text" value="10" size="1" id="valorGorj" readonly><br><br>
+  <label>Quant. pagadores</label> <input type="text" size="1" id="quantPessoas"><br><br>
+  <input type="button" value="Calcular" onclick="calcular()">
+  <p id="resposta"></p>
+
+
+
+
+  
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
